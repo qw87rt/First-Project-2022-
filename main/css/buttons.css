@@ -1,0 +1,24 @@
+.add-button,
+.butON {
+  background-color: #ff6600; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 120px;
+}
+
+
+.butON:hover {
+  background-color: #e60000;
+}
+
+.add-button:hover {
+  background-color: #3e8e41;
+}

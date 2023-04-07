@@ -1,0 +1,85 @@
+	/* Add some custom styles for the about page */
+	.container-about {
+    background-color: #727273;
+    font: 18px/1.5 Arial, sans-serif;
+    width: 60%;
+    margin: auto;
+    border-radius: 10%;
+    box-shadow:15px 0 20px 0 #243b55;
+    opacity: .9;
+  }
+
+  .about-section {
+    margin: 50px auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+  .about-section h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .about-section p {
+    color: #fff;
+    margin: 30px auto;
+    max-width: 700px;
+    text-align: left;
+  }
+
+  .about-section .mission-statement {
+    background-color: #343434;
+    border-radius: 10px;
+    color: white;
+    margin: 50px 0;
+    padding: 20px;
+  }
+
+  .about-section .mission-statement h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .about-section .mission-statement p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .about-section .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-section .team-section .team-member {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #848484, 0 0 10px 0 #848484;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+  }
+
+  .about-section .team-section .team-member h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .about-section .team-section .team-member p {
+    color: #343434;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .values-section {
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .about-section ul{
+    color: #fff;
+  }
+
+}

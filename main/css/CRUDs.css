@@ -1,0 +1,54 @@
+.Q{
+  padding: 15px;
+  text-align: center;
+  background-color: #727273;
+  color: #fff;
+  text-decoration: underline;
+  text-shadow: 2px 2px #000;
+}
+
+
+
+.centernt {
+  text-align: center;
+  background-color: #727273;
+
+}
+.table_sql {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 19.5px;
+
+}
+
+.table_sql th,
+.table_sql td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  color: #fff;
+  background-color: #727273;
+}
+
+.table_sql th {
+  background-color: #727273;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 2px #000;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #727273;
+}
+
+.table_sql tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table_sql tr:hover td {
+  color: #000;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+}
